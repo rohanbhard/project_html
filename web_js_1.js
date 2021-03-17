@@ -22,8 +22,8 @@ function getinfo()
 	{
 		if(user==cred[i].username && pass==cred[i].password)
 		{
-			localStorage.setItem(user,pass)
-			location.replace("home.html");
+			localStorage.setItem(user,pass);
+			window.open("home.html");
 
 		}
     }
